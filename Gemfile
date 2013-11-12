@@ -10,6 +10,10 @@ gem 'rails', '3.2.1'
 gem 'devise'
 gem 'simple_form', '2.0.2'
 
+group :test do
+	gem 'shoulda'
+end
+
 group :development, :test do
   gem 'sqlite3'
 end
